@@ -96,13 +96,16 @@ getent passwd %1 >/dev/null || useradd -r -u %2 -g %3 -c %5 -s /sbin/nologin -d 
 
 Name:		@PACKAGE_NAME@
 Version:	@RPM_VERSION@
-Release:	@RPM_RELEASE@%{?release_suffix}%{?dist}
+Release:	@RPM_RELEASE@%{?release_suffix}.prolinux8
 License:	LGPLv2 and ASL 2.0
 Summary:	%{product_name}
-Group:		Virtualization/Management
-URL:		http://www.ovirt.org
-BuildArch:	noarch
-Source:		http://resources.ovirt.org/pub/src/@PACKAGE_NAME@/@PACKAGE_NAME@-@PACKAGE_VERSION@.tar.gz
+Group:		Tmax A&C Co., Ltd.
+Vendor:         Tmax A&C Co., Ltd.
+Packager:       Tmax A&C Co., Ltd.
+URL:		https://github.com/tmax-cloud/ovirt-dwh
+Source:		https://github.com/tmax-cloud/ovirt-dwh/archive/@PACKAGE_NAME@-@PACKAGE_VERSION@.tar.gz
+
+BuildArch:      noarch
 
 BuildRequires:  java-11-openjdk-devel >= 11.0.4
 BuildRequires:	%{commons_collections}

@@ -36,4 +36,4 @@ MILESTONE=
 # while N is incremented each re-release
 # Use only for spec file changes
 #
-RPM_RELEASE=1
+RPM_RELEASE=hypervm.22.0.0
