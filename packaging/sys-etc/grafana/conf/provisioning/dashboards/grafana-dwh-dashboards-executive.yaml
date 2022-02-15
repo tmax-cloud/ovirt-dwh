@@ -2,9 +2,9 @@
 apiVersion: 1
 
 providers:
-- name: oVirt DWH Executive Dashboards
+- name: HyperVM DWH Executive Dashboards
   orgId: 1
-  folder: 'oVirt Executive Dashboards'
+  folder: 'HyperVM Executive Dashboards'
   folderUid: 'executive'
   type: file
   disableDeletion: false

@@ -2,9 +2,9 @@
 apiVersion: 1
 
 providers:
-- name: oVirt DWH Service Level Dashboards
+- name: HyperVM DWH Service Level Dashboards
   orgId: 1
-  folder: 'oVirt Service Level Dashboards'
+  folder: 'HyperVM Service Level Dashboards'
   folderUid: 'servicelevel'
   type: file
   disableDeletion: false
